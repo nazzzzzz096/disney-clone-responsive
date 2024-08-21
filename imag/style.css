@@ -1,0 +1,38 @@
+/* Ensure the container takes up the full width of the parent element */
+.image-container {
+    position: relative;
+    display: inline-block; /* Adjust size according to your needs */
+}
+
+/* Style for the background image */
+.background-image {
+    width: 100%; /* Adjust to fit your needs */
+    height: auto; /* Maintain aspect ratio */
+    display: block; /* Remove any unwanted space below the image */
+}
+
+/* Create the overlay with a transparent black gradient */
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+    z-index: 1; /* Position above the image but below the text */
+}
+
+/* Style for the text overlay */
+.text-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white; /* Adjust text color as needed */
+    font-size: 2rem; /* Adjust text size as needed */
+    text-align: center;
+    z-index: 2; /* Ensure text is above the overlay */
+    padding: 10px; /* Optional padding */
+    background: rgba(0, 0, 0, 0.3); /* Optional background for better text readability */
+    border-radius: 5px; /* Optional rounded corners for the background */
+}

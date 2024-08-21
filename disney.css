@@ -1,0 +1,493 @@
+.navbar-brand img{
+    width:5em;
+    display: inline-block;
+    vertical-align: top;
+    float:none;
+
+}
+
+.carousel-item-active img:hover{
+    zoom:1.2;
+
+}
+
+
+.row h5{
+    text-align: center;
+    font-size: 1.5em;
+    padding:2em 2em 1em 2em;
+
+
+}
+.row h6{
+    text-align: center;
+    font-size: 0.9em;
+    padding-bottom: 2em;
+    z-index:4;
+    font-family:Arial, Helvetica, sans-serif;
+
+}
+.box1{
+  background: white;
+}
+
+
+
+
+
+.box2 img{
+  width:100vw;
+}
+/* Desktop layout */
+@media (min-width: 1200px) {
+    .lbox,.rbox{
+      display: flex;
+
+    }
+
+
+    .box1{
+      display: flex;
+      float:left;
+      flex-wrap: wrap;
+    }
+    .box2 img{
+      width:24.5vw;
+      padding-left: 1vw;
+      padding-right: 1vw;
+    }
+    
+  }
+  
+  /* Tablet layout */
+  @media (min-width: 768px) and (max-width: 1199px) {
+     .lbox.rbox{
+      float: left;
+      display: flex;
+      flex-wrap: wrap;
+     }
+     .box1{
+      display: flex;
+     }
+
+     .box2 img{
+      
+      width:49.5vw;
+      padding-left: 1vw;
+      padding-right: 1vw;
+     }
+    
+  }
+  
+  /* Mobile layout */
+  @media (min-width:0px) and (max-width: 767px) {
+     .box1{
+      flex-direction: column;
+    
+      
+     }
+     .lbox,.rbox{
+      flex-direction: column;
+      
+     }
+     .box2 img{
+      width:100vw;
+     }
+    
+  }
+  .box1{
+    padding-top:5vh;
+  }
+  .box2 h6{
+    text-align: center;
+  }
+  .box2 p{
+    text-align:center;
+  }
+  .adss{
+    background-color: rgb(239, 235, 230);
+    margin-top: 10px;
+  }
+  .adss h5{
+    padding-top: 30px;
+    margin-top:10px;
+  }
+  .imagine img{
+    width: 100vw;
+    padding-top: 30px;
+  }
+  .spider img{
+    width:100vw;
+    padding-top: 30px;
+  }
+
+/*media query of featured ads*/
+
+
+
+  @media(min-width:1200px){
+    .imagine img{
+      width:40vw;
+      padding:20px;
+    }
+    .spider img{
+      width:40vw;
+      padding:20px;
+    }
+    .sec{
+      display:flex;
+    }
+    .imagine{
+      padding:30px;
+    }
+    .spider{
+      padding:30px;
+    }
+    .imagine p{
+      font-size: 1.5rem;
+      padding-left:26px;
+    }
+  
+    
+    .adss h5{
+      font-size: 2rem;
+      padding-left: 30px;
+    }
+    .spider p{
+      padding-left: 26px;
+      font-size: 1.5rem;
+    }
+    
+  }
+  @media(min-width:768px)and(max-width:1199){
+    .imagine img{
+      width:40vw;
+      padding:20px;
+    }
+    .spider img{
+      width:40vw;
+      padding: 20px;
+    }
+    .sec{
+      display:flex;
+      flex-wrap: wrap;
+    }
+    .imagine{
+      padding:30px;
+    }
+    .adss h5{
+      font-size: 2rem;
+      padding-left:30px;
+    }
+    .spider p{
+      padding-left: 26px;
+      font-size: 1.5rem;
+    }
+    .imagine p{
+      font-size: 1.5rem;
+      padding-left:26px;
+    }
+
+  }
+  @media(min-width:0px)and(max-width:767px){
+     .imagine img{
+      width:100vw;
+      padding-left:10px;
+      padding-right:10px;
+
+     }
+     .spider img{
+      width:100vw;
+      padding-right:10px;
+      padding-left:10px;
+     }
+     adss h5{
+      font-size: 2rem;
+      padding-left:30px;
+    }
+    .spider p{
+      padding-left: 26px;
+      font-size: 1.5rem;
+    }
+    .imagine p{
+      font-size: 1.5rem;
+      padding-left:26px;
+    }
+  }
+/*end of media query*/
+  
+  .legend img{
+    width:98vw;
+    padding-left: 1vw;
+    padding-right: 1vw;
+
+  }
+  .ticket img{
+    width:98vw;
+    padding-left: 1vw;
+    padding-right: 1vw;
+  }
+  .ship img{
+    width:98vw;
+    padding-left: 1vw;
+    padding-left: 1vw;
+  }
+  .explore h5{
+    margin-bottom:2rem;
+    
+  }
+
+  
+  /*MEDIA QUERY FOR EXPLORE DISNEY*/
+  @media (min-width:1200px){
+     .holiday{
+      display:flex;
+
+     }
+     .legend img{
+      width:30vw;
+      padding-left: 1.5vw;
+  
+    }
+    .ticket img{
+      width:30vw;
+      padding-left: 1.5vw;
+    }
+    .ship img{
+      width:30vw;
+      padding-left: 1.5vw;
+    }
+    .legend h6{
+      font-size: 1.7rem;
+      text-align: center;
+    }
+    .legend p{
+      text-align:center;
+    }
+    .ticket h6{
+      font-size: 1.7rem;
+      text-align: center;
+    }
+    .ticket p{
+      text-align:center;
+    }
+    .ship h6{
+      font-size: 1.7rem;
+      text-align: center;
+    }
+    .ship p{
+      text-align:center;
+    }
+     .explore{
+      padding-left:10px;
+      padding-right:10px;
+     }
+  }
+  @media(min-width:768px)and(max-width:1199){
+
+    .holiday{
+      display:flex;
+
+     }
+     .legend img{
+      width:32vw;
+  
+    }
+    .ticket img{
+      width:32vw;
+    }
+    .ship img{
+      width:32vw;
+    }
+    .legend h6{
+      font-size: 2rem;
+      text-align: center;
+    }
+    .legend p{
+      text-align:center;
+    }
+    .ticket h6{
+      font-size: 2rem;
+      text-align: center;
+    }
+    .ticket p{
+      text-align:center;
+    }
+    .ship h6{
+      font-size: 2rem;
+      text-align: center;
+    }
+    .ship p{
+      text-align:center;
+    }
+     
+  }
+  @media(min-width:0px)and(max-width:767px){
+    .legend{
+      padding:30px;
+      margin-bottom: 5rem;
+    }
+    .ticket{
+      padding:30px;
+    }
+    .ship{
+      padding:30px;
+    }
+    .explore{
+      padding:50px;
+    }
+    .legend h6{
+      font-size: 2rem;
+      text-align: center;
+    }
+    .legend p{
+      text-align:center;
+    }
+    .ticket h6{
+      font-size: 2rem;
+      text-align: center;
+    }
+    .ticket p{
+      text-align:center;
+    }
+    .ship h6{
+      font-size: 2rem;
+      text-align: center;
+    }
+    .ship p{
+      text-align:center;
+    }
+  }
+  /*end of media query*/
+.jun img{
+  width:98vw;
+  padding-left:1vw;
+  padding-right:1vw;
+}
+.happy img{
+  width:98vw;
+  padding-left:1vw;
+  padding-right:1vw;
+}
+
+
+  /*media query of more from disney */
+  @media (min-width:1200px){
+    .secc{
+      display:flex;
+    }
+    .jun img{
+      width:45vw;
+    }
+    .happy img{
+      width:45vw;
+    }
+    .jun p{
+      font-size: 0.9rem;
+      padding-left: 15px;
+    }
+    .jun h6{
+      padding-left:15px;
+    }
+    .happy p{
+      font-size: 0.9rem;
+      padding-left: 15px;
+    }
+    .happy h6{
+      padding-left:15px;
+    }
+
+  }
+  @media(min-width:768px)and(max-width:1199){
+    .jun p{
+      font-size: 0.9rem;
+      padding-left: 15px;
+    }
+    .jun h6{
+      padding-left:15px;
+    }
+    .happy p{
+      font-size: 0.9rem;
+      padding-left: 15px;
+    }
+    .happy h6{
+      padding-left:15px;
+    }
+  }
+  @media(min-width:0px)and(max-width:767px){
+    .jun p{
+      font-size: 0.9rem;
+      padding-left: 15px;
+    }
+    .jun h6{
+      padding-left:15px;
+    }
+    .happy p{
+      font-size: 0.9rem;
+      padding-left: 15px;
+    }
+    .happy h6{
+      padding-left:15px;
+    }
+
+
+  }
+
+footer{
+  background-color: white;
+}
+.footerContainer{
+  width:100%;
+  padding: 70px 30px 20px;
+}  
+.socialIcons{
+  display: flex;
+  justify-content: center;
+}
+.socialIcons a{
+  text-decoration: none;
+  padding:10px;
+  margin:10px;
+  color:black;
+}
+      
+.socialIcons a i{
+  font-size: 2em;
+
+}
+.footerNav{
+  margin:30px;
+
+}
+.footerNav ul{
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  
+}
+.footerNav ul li{
+  text-decoration: none;
+}
+.footerNav ul li a{
+  color:black;
+  margin:20px;
+  font-size:1em;
+  opacity:0.7;
+  transition: 0.5s;
+  text-decoration: none;
+  
+
+}
+.footerNav ul li a:hover{
+  opacity:1;
+}
+.footerBottom{
+  text-align: center;
+}
+.footerImage img{
+  width:7em;
+  
+}
+.footerImage{
+  text-align: center;
+}
